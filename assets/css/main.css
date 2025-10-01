@@ -1,1 +1,118 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+  color: #333;
+}
+
+input[type=text] {
+  padding: 10px 15px;
+  border: 2px solid #ffcb05;
+  border-radius: 25px;
+  outline: none;
+  font-size: 1rem;
+  margin-right: 10px;
+  transition: 0.3s ease;
+}
+
+input[type=text]:focus {
+  border-color: #3b4cca;
+  box-shadow: 0 0 5px #3b4cca;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #3b4cca;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #2a2e7f;
+  transform: scale(1.05);
+}
+
+#pokemonSprite {
+  margin: 20px 0;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #3b4cca;
+  text-align: center;
+  text-shadow: 2px 2px #ffcb05;
+}
+
+#pokemonList {
+  margin: 15px 0;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 80%;
+  max-width: 700px;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+p span {
+  background: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+p span:hover {
+  background: #ffcb05;
+  color: #3b4cca;
+  transform: translateY(-3px);
+}
+
+#exampleList span {
+  background: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#exampleList span:hover {
+  background: #ffcb05;
+  color: #3b4cca;
+  transform: translateY(-3px);
+}/*# sourceMappingURL=main.css.map */
